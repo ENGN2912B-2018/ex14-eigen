@@ -1,6 +1,6 @@
-# Eigen linear algebra library
+# Eigen linear algebra template library
 
-Eigen is an external (3rd party) linear algebra.
+Eigen is an external (3rd party) linear algebra library that includes matrices, vectors, solvers, and algorithms.
 
 ## Installation on CCV
 The `Eigen` package is available through the pyModules package manager on the CCV.  To load the library, you simply need to add the following line to your `.modules` file, or run it directly from the command line.
@@ -24,3 +24,10 @@ The library may be invoked using the `-I` option directly from `g++`.
 ```
 g++ -I ${EIGEN3_INCLUDE_DIR} main.cpp -o main
 ```
+
+If you want to use the CMake build environment, you can add this include directory to your `CMakeLists.txt` file.
+
+```
+include_directories($EIGEN3_INCLUDE_DIR)
+```
+
