@@ -31,3 +31,4 @@ If you want to use the CMake build environment, you can add this include directo
 include_directories($EIGEN3_INCLUDE_DIR)
 ```
 
+There is no need to link any libraries, as the Eigen library is built directly from the headers and source files.
