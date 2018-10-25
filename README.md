@@ -15,7 +15,7 @@ To see the directory where Eigen include source files are located, you can run
 show eigen
 ```
 
-You will notice that the include directories are mapped to an environmental variable `EIGEN3_INCLUDE_DIR`.  This variable can be used directyl on the command line when building programs that include `Eigen` in the source file.
+You will notice that the include directories are mapped to an environment variable `EIGEN3_INCLUDE_DIR`.  This variable can be used directly on the command line when building programs that include `Eigen` in the source file.
 
 ## Compiling programs with the Eigen library
 
